@@ -29,15 +29,15 @@ You’ll get concise answers with **page-level citations**.
 
 ## Project Structure
 research-copilot/
-├─ app.py # Streamlit UI
-├─ ingest.py # Ingest PDFs & build index
-├─ chains.py # LangChain RAG chain
-├─ settings.py # Model + embedding config
-├─ utils.py # Retrieval helper (citations)
-├─ requirements.txt # Python deps
-├─ environment.yml # Conda env (optional)
-├─ data/ # Put your PDFs here
-└─ storage/ # Auto-created for vector DB
+- ├─ app.py # Streamlit UI
+- ├─ ingest.py # Ingest PDFs & build index
+- ├─ chains.py # LangChain RAG chain
+- ├─ settings.py # Model + embedding config
+- ├─ utils.py # Retrieval helper (citations)
+- ├─ requirements.txt # Python deps
+- ├─ environment.yml # Conda env (optional)
+- ├─ data/ # Put your PDFs here
+- └─ storage/ # Auto-created for vector DB
 
 
 ---
