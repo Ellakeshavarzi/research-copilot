@@ -1,0 +1,25 @@
+# =========================
+# environment.yml (optional — Conda-native)
+# =========================
+
+
+name: researchcopilot
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.11
+- pip
+- pip:
+- llama-index==0.11.*
+- langchain==0.2.*
+- chromadb>=0.5.5
+- pypdf>=4.0.1
+- tiktoken>=0.7.0
+- streamlit>=1.36.0
+- sentence-transformers>=2.7.0
+- llama-index-llms-ollama>=0.2.0
+- langchain-ollama>=0.1.0
+- openai>=1.40.0
+- ragas>=0.1.8
+

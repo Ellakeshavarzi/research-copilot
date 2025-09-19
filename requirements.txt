@@ -1,0 +1,38 @@
+# Core LLM + RAG libraries
+# (Install with: pip install -r requirements.txt)
+llama-index==0.11.*
+langchain==0.2.*
+
+
+# Vector store
+chromadb>=0.5.5
+
+
+# PDF loading
+pypdf>=4.0.1
+
+
+# Tokenization
+tiktoken>=0.7.0
+
+
+# Web UI
+streamlit>=1.36.0
+
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+
+# Local model (optional: only if you’ll use Ollama)
+llama-index-llms-ollama>=0.2.0
+langchain-ollama>=0.1.0
+
+
+# OpenAI client (optional: if you’ll use GPT-4/mini)
+openai>=1.40.0
+
+
+# Evaluation (optional)
+ragas>=0.1.8
+
